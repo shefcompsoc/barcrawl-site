@@ -1,0 +1,20 @@
+// generates font face declarations
+@mixin fontface($name, $filename, $weight: 'normal', $style: 'normal', $exts: woff ttf eot, $path: '../fonts/') {
+  $src: null;
+
+  // generate src string
+  $formats: ( otf: 'opentype', ttf: 'truetype' );
+  @each $ext in $exts {
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + $filename + '.' + $ext)) format(quote($format)), comma);
+  }
+
+  // print font face declaration
+  @font-face {
+    font-family: quote($name);
+    src: $src;
+    font-weight: $weight;
+    font-style: $style;
+    font-display: fallback;
+  }
+}

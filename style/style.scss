@@ -1,0 +1,11 @@
+@import 'vars/colours';
+@import 'vars/fonts';
+
+.main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: $cs-dark1;
+}
