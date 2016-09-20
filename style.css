@@ -1,3 +1,4 @@
 .main { max-width: 768px; margin: 0 auto; }
+.main img { max-width: 100%; height: auto; margin-top: 16px; }
 
 body { background-color: #222; }

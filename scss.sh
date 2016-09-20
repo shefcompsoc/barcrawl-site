@@ -1,1 +1,1 @@
-sass --watch --scss -t compact --sourcemap=none style/style.scss
+sass --watch --scss -t compact --sourcemap=none scss/style.scss:style.css
