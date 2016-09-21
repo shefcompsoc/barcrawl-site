@@ -1,4 +1,7 @@
 .main { max-width: 768px; margin: 0 auto; }
 .main img { max-width: 100%; height: auto; margin-top: 16px; }
 
+.btn { max-width: 90%; margin: 0px auto; background-color: #429f35; }
+.btn p { font-size: 24pt; color: #222; text-align: center; padding: 8px; }
+
 body { background-color: #222; }

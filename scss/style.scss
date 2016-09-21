@@ -12,6 +12,19 @@
     }
 }
 
+.btn {
+    max-width: 90%;
+    margin: 0px auto;
+    background-color: $cs-green1;
+    
+    p {
+        font-size: 24pt;
+        color: $cs-dark1;
+        text-align: center;
+        padding: 8px;
+    }
+}
+
 body {
     background-color: $cs-dark1;
 }
