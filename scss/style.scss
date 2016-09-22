@@ -8,9 +8,10 @@ body {
 
 .heading {
     //Contains Title of page and "Back" button
-
-    margin: 0px auto;
+    width: 100%;
     cursor: pointer;
+    margin-top: 32px;
+    margin-bottom: 32px;
     h1 {
         font-size: 32pt;
         color: $cs-green1;
