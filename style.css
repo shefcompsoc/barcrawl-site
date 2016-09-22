@@ -1,7 +1,8 @@
-.main { max-width: 768px; margin: 0 auto; }
-.main img { max-width: 100%; height: auto; margin-top: 16px; }
+img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
-.btn { max-width: 90%; margin: 0px auto; background-color: #429f35; }
-.btn p { font-size: 24pt; color: #222; text-align: center; padding: 8px; }
+h1 { font-size: 32pt; color: #429f35; margin: 0px auto; text-align: center; font-weight: normal; }
+
+.btn, .objective { max-width: 90%; margin: 0px auto; background-color: #429f35; cursor: pointer; }
+.btn p, .objective p { font-size: 20pt; color: #222; text-align: center; padding: 8px; }
 
 body { background-color: #222; }

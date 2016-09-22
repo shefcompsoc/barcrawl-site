@@ -1,24 +1,32 @@
 @import 'vars/colours';
 @import 'vars/fonts';
 
-.main {
-    max-width: 768px;
-    margin: 0 auto;
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+    margin: 0px auto 0px auto;
     
-    img {
-        max-width: 100%;
-        height: auto;
-        margin-top: 16px;
-    }
+    text-align: center;
+    display: block;
 }
 
-.btn {
+h1 {
+    font-size: 32pt;
+    color: $cs-green1;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: normal;
+}
+
+.btn, .objective {
     max-width: 90%;
     margin: 0px auto;
     background-color: $cs-green1;
+    cursor: pointer;
     
     p {
-        font-size: 24pt;
+        font-size: 20pt;
         color: $cs-dark1;
         text-align: center;
         padding: 8px;
