@@ -1,8 +1,9 @@
 body { font-family: "Lucida Console", Monaco, monospace; background-color: #222; }
 
-img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
+.heading { margin: 0px auto; cursor: pointer; }
+.heading h1 { font-size: 32pt; color: #429f35; margin: 0px auto; text-align: center; font-weight: normal; }
 
-h1 { font-size: 32pt; color: #429f35; margin: 0px auto; text-align: center; font-weight: normal; }
+img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
 .btn, .objective { max-width: 90%; margin: 0px auto; background-color: #429f35; cursor: pointer; }
 .btn p, .objective p { font-size: 20pt; color: #222; text-align: center; padding: 8px; }

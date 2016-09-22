@@ -6,6 +6,20 @@ body {
     background-color: $cs-dark1;
 }
 
+.heading {
+    //Contains Title of page and "Back" button
+
+    margin: 0px auto;
+    cursor: pointer;
+    h1 {
+        font-size: 32pt;
+        color: $cs-green1;
+        margin: 0px auto;
+        text-align: center;
+        font-weight: normal;
+    }
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -14,14 +28,6 @@ img {
     
     text-align: center;
     display: block;
-}
-
-h1 {
-    font-size: 32pt;
-    color: $cs-green1;
-    margin: 0px auto;
-    text-align: center;
-    font-weight: normal;
 }
 
 .btn, .objective {
