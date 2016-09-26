@@ -13,7 +13,7 @@ body {
     margin-top: 32px;
     margin-bottom: 32px;
     h1 {
-        font-size: 32pt;
+        font-size: 40pt;
         color: $cs-green1;
         margin: 0px auto;
         text-align: center;
@@ -30,22 +30,6 @@ img {
     text-align: center;
     display: block;
 }
-
-/*
-.btn, .objective {
-    max-width: 90%;
-    margin: 0px auto;
-    background-color: $cs-green1;
-    cursor: pointer;
-    
-    p {
-        font-size: 20pt;
-        color: $cs-dark1;
-        text-align: center;
-        padding: 8px;
-    }
-}
-*/
 
 .btn {
     background-color: $cs-green1;

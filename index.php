@@ -15,7 +15,7 @@ Venue selection page.
         <div class="btn clickable" onclick="linkTo('barone.php')">
           <p>Bar One</p>
         </div>
-        <div class="btn clickable">
+        <div class="btn clickable" onclick="linkTo('huttons.php')">
           <p>Huttons</p>
         </div>
         <div class="btn clickable">

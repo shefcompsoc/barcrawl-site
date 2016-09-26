@@ -13,7 +13,7 @@
       <p>Make friends with someone of the opposite OS</p>
     </div>
     <div id="102" class="objective clickable">
-      <p>AN OBJECTIVE</p>
+      <p>Meet a committee member</p>
     </div>
   </body>
 </html>
