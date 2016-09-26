@@ -1,5 +1,5 @@
 @import 'vars/colours';
-@import 'vars/fonts';
+//@import 'vars/fonts';
 
 body {
     font-family: "Lucida Console", Monaco, monospace;
@@ -31,6 +31,7 @@ img {
     display: block;
 }
 
+/*
 .btn, .objective {
     max-width: 90%;
     margin: 0px auto;
@@ -40,6 +41,34 @@ img {
     p {
         font-size: 20pt;
         color: $cs-dark1;
+        text-align: center;
+        padding: 8px;
+    }
+}
+*/
+
+.btn {
+    background-color: $cs-green1;
+    color: $cs-dark1;
+}
+
+.objective {
+    background-color: $cs-dark2;
+    color: $cs-green1;
+}
+
+.marked {
+    background-color: $cs-green1;
+    color: $cs-dark1;
+}
+
+.clickable {
+    max-width: 90%;
+    margin: 0px auto;
+    cursor: pointer;
+    
+    p {
+        font-size: 20pt;
         text-align: center;
         padding: 8px;
     }

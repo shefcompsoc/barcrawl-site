@@ -5,5 +5,15 @@ body { font-family: "Lucida Console", Monaco, monospace; background-color: #222;
 
 img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
-.btn, .objective { max-width: 90%; margin: 0px auto; background-color: #429f35; cursor: pointer; }
-.btn p, .objective p { font-size: 20pt; color: #222; text-align: center; padding: 8px; }
+/*
+.btn, .objective { max-width: 90%; margin: 0px auto; background-color: $cs-green1; cursor: pointer;  p { font-size: 20pt; color: $cs-dark1; text-align: center; padding: 8px; }
+}
+*/
+.btn { background-color: #429f35; color: #222; }
+
+.objective { background-color: #2f2f2f; color: #429f35; }
+
+.marked { background-color: #429f35; color: #222; }
+
+.clickable { max-width: 90%; margin: 0px auto; cursor: pointer; }
+.clickable p { font-size: 20pt; text-align: center; padding: 8px; }

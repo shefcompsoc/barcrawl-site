@@ -6,11 +6,14 @@
   </head>
 
   <body>
-    <div class="heading">
+    <div class="heading" onclick="linkTo('index.php')">
       <h1>Bar One</h1>
     </div>
-    <div class="objective">
+    <div id="101" class="objective clickable">
       <p>Make friends with someone of the opposite OS</p>
+    </div>
+    <div id="102" class="objective clickable">
+      <p>AN OBJECTIVE</p>
     </div>
   </body>
 </html>
