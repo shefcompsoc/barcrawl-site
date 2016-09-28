@@ -12,19 +12,19 @@ Venue selection page.
   <body>
     <div class="main">
         <img src="assets/slim.png"/>
-        <div class="btn clickable" onclick="linkTo('barone.php')">
+        <div class="btn clickable" onclick="linkTo('venues/barone.php')">
           <p>Bar One</p>
         </div>
-        <div class="btn clickable" onclick="linkTo('huttons.php')">
+        <div class="btn clickable" onclick="linkTo('venues/huttons.php')">
           <p>Huttons</p>
         </div>
-        <div class="btn clickable" onclick="linkTo('tigerworks.php')">
+        <div class="btn clickable" onclick="linkTo('venues/tigerworks.php')">
           <p>Tiger Works</p>
         </div>
-        <div class="btn clickable" onclick="linkTo('bandb.php')">
+        <div class="btn clickable" onclick="linkTo('venues/bandb.php')">
           <p>Bungalows and Bears</p>
         </div>
-        <div class="btn clickable" onclick="linkTo('code.php')">
+        <div class="btn clickable" onclick="linkTo('venues/code.php')">
           <p>Code</p>
         </div>
     </div>
