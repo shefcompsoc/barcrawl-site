@@ -3,11 +3,12 @@ body { font-family: "Lucida Console", Monaco, monospace; background-color: #222;
 html, body { height: 100%; }
 
 .heading { width: 100%; cursor: pointer; margin-top: 32px; margin-bottom: 32px; }
-.heading h1 { font-size: 40pt; color: #70b62c; margin: 0px auto; text-align: center; font-weight: normal; }
+.heading h1 { font-size: 40pt; color: #70b62c; margin: 0px auto; text-align: center; font-weight: bold; font-style: italic; }
 
 img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
-.deal { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; position: absolute; right: 0; bottom: 0; left: 0; margin: 0; padding: 1rem; text-align: center; }
+.deal { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 32px; padding-bottom: 32px; }
+.deal p { font-size: 24pt; }
 
 .btn { background-color: #429f35; color: #222; }
 
