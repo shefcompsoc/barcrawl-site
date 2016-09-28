@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <div class="heading" onclick="linkTo('index.php')">
+    <div class="heading" onclick="linkTo('../index.php')">
       <h1>Bungalows and Bears</h1>
     </div>
     <div id="401" class="objective clickable">
