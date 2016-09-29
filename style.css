@@ -7,8 +7,8 @@ html, body { height: 100%; }
 
 img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
-.deal { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 32px; padding-bottom: 32px; }
-.deal p { font-size: 24pt; }
+.deals { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 32px; padding-bottom: 32px; }
+.deals p { font-size: 24pt; }
 
 .btn { background-color: #429f35; color: #222; }
 
