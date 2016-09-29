@@ -7,7 +7,7 @@
 
   <body>
     <div class="heading" onclick="linkTo('../venues/code.php')">
-      <h1>Code - Deals</h1>
+      <h1>Code</h1>
       <h2>Deals</h2>
     </div>
     
