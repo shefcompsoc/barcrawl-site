@@ -7,7 +7,6 @@
 
   <body>
     <div class="heading" onclick="linkTo('../index.php')">
-      <!--<img src="../assets/back.png" />-->
       <h1>Code</h1>
     </div>
 
