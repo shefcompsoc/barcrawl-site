@@ -10,10 +10,10 @@
       <h1>Tiger Works</h1>
     </div>
     <div id="301" class="objective clickable">
-      <p>AN OBJECTIVE</p>
+      <p>Tell someone a compsci joke</p>
     </div>
     <div id="302" class="objective clickable">
-      <p>AN OBJECTIVE</p>
+      <p>They laughed at it</p>
     </div>
   </body>
 </html>

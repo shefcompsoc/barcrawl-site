@@ -10,7 +10,7 @@
       <h1>Soyo</h1>
     </div>
     <div id="401" class="objective clickable">
-      <p>AN OBJECTIVE</p>
+      <p>Draw on 2 more CompSoc members</p>
     </div>
     <div id="402" class="objective clickable">
       <p>AN OBJECTIVE</p>

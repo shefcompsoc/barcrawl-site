@@ -2,8 +2,9 @@ body { font-family: "Lucida Console", Monaco, monospace; background-color: #222;
 
 html, body { height: 100%; }
 
-.heading { width: 100%; cursor: pointer; margin-top: 32px; margin-bottom: 32px; }
+.heading { max-width: 90%; margin: 0px auto; cursor: pointer; margin-top: 32px; margin-bottom: 32px; background: url(assets/back.png); background-size: contain; background-repeat: no-repeat; }
 .heading h1 { font-size: 40pt; color: #70b62c; margin: 0px auto; text-align: center; font-weight: bold; font-style: italic; }
+.heading img { float: left; max-height: 100%; width: auto; vertical-align: middle; }
 
 img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 

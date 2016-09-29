@@ -7,15 +7,10 @@
 
   <body>
     <div class="heading" onclick="linkTo('../index.php')">
+      <!--<img src="../assets/back.png" />-->
       <h1>Code</h1>
     </div>
     
-    <div id="501" class="objective clickable">
-      <p>AN OBJECTIVE</p>
-    </div>
-    <div id="502" class="objective clickable">
-      <p>AN OBJECTIVE</p>
-    </div>
     <div class="deals clickable">
       <p>Deals</p>
     </div>

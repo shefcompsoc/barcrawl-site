@@ -10,10 +10,10 @@
       <h1>Huttons</h1>
     </div>
     <div id="201" class="objective clickable">
-      <p>Tell someone a compsci joke</p>
+      <p>Draw on 2 other CompSoc members</p>
     </div>
     <div id="202" class="objective clickable">
-      <p>They laughed at it</p>
+      <p>Explain to someone the difference between memory and RAM</p>
     </div>
   </body>
 </html>
