@@ -10,10 +10,13 @@
       <h1>Huttons</h1>
     </div>
     <div id="201" class="objective clickable">
-      <p>Draw on 2 other CompSoc members</p>
+      <p>Draw on as many CompSoc members as you can</p>
     </div>
     <div id="202" class="objective clickable">
-      <p>Explain to someone the difference between memory and RAM</p>
+      <p>Successfully shitpost in the CompSoc General Chat group</p>
+    </div>
+    <div id="203" class="objective clickable">
+      <p>Make friends with someone in another year</p>
     </div>
 
     <div class="deals clickable" onclick="linkTo('../deals/huttons.php')">

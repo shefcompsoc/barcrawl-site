@@ -15,5 +15,8 @@
     <div id="102" class="objective clickable">
       <p>Meet a committee member</p>
     </div>
+    <div id="103" class="objective clickable">
+      <p>Get a photo with someone you don't know</p>
+    </div>
   </body>
 </html>

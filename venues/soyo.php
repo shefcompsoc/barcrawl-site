@@ -10,10 +10,13 @@
       <h1>Soyo</h1>
     </div>
     <div id="401" class="objective clickable">
-      <p>Draw on 2 more CompSoc members</p>
+      <p>Draw on even more CompSoc members</p>
     </div>
     <div id="402" class="objective clickable">
-      <p>AN OBJECTIVE</p>
+      <p>Spot the inevitable cock drawn on someone's shirt</p>
+    </div>
+    <div id="403" class="objective clickable">
+      <p>Talk to a non-member about CompSci</p>
     </div>
 
     <div class="deals clickable" onclick="linkTo('../deals/soyo.php')">

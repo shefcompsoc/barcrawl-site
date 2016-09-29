@@ -14,7 +14,7 @@
     <div id="501" class="objective clickable">
       <p>Get into the club intact</p>
     </div>
-    <div id="102" class="objective clickable">
+    <div id="502" class="objective clickable">
       <p>Grab a greasy takeaway after the night</p>
     </div>
 
