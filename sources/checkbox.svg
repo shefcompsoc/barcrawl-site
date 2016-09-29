@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="back.svg">
+   sodipodi:docname="checkbox.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -53,20 +53,20 @@
      inkscape:groupmode="layer"
      id="layer1">
     <rect
-       style="fill:#70b62c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="rect3336"
-       width="197.14285"
-       height="51.42857"
-       x="-25.490461"
-       y="371.93585"
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
-    <rect
-       style="fill:#70b62c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="fill:#222222;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="rect3336-3"
-       width="197.14285"
+       width="164.81798"
        height="51.42857"
-       x="371.98587"
-       y="-25.910875"
+       x="404.1936"
+       y="-25.884733"
        transform="matrix(0.70710678,0.70710678,-0.70710678,0.70710678,0,0)" />
+    <rect
+       style="fill:#222222;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="rect3336-3-3"
+       width="294.11749"
+       height="51.42857"
+       x="-25.573261"
+       y="517.63287"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
   </g>
 </svg>

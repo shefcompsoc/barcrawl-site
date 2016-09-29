@@ -11,7 +11,7 @@ img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto
 
 .deallist { max-width: 90%; margin: 0px auto; }
 .deallist ul { color: #429f35; font-size: 20pt; }
-.deallist ul li { padding-bottom: 8px; }
+.deallist ul li { padding-bottom: 16px; }
 
 .btn { background-color: #429f35; color: #222; }
 

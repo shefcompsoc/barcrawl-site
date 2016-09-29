@@ -12,9 +12,6 @@
     </div>
 
     <div class="deallist">
-      <ul>
-        <li></li>
-      </ul>
     </div>
 
   </body>
