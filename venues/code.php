@@ -10,8 +10,15 @@
       <!--<img src="../assets/back.png" />-->
       <h1>Code</h1>
     </div>
-    
-    <div class="deals clickable">
+
+    <div id="501" class="objective clickable">
+      <p>Get into the club intact</p>
+    </div>
+    <div id="102" class="objective clickable">
+      <p>Grab a greasy takeaway after the night</p>
+    </div>
+
+    <div class="deals clickable" onclick="linkTo('../deals/code.php')">
       <p>Deals</p>
     </div>
 
