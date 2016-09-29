@@ -93,6 +93,10 @@ img {
 .objective {
     background-color: $cs-dark2;
     color: $cs-green1;
+
+    span {
+        float: right;
+    }
 }
 
 .marked {

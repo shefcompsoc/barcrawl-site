@@ -16,6 +16,7 @@ img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto
 .btn { background-color: #429f35; color: #222; }
 
 .objective { background-color: #2f2f2f; color: #429f35; }
+.objective span { float: right; }
 
 .marked { background-color: #429f35; color: #222; }
 
