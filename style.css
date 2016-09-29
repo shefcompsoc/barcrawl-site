@@ -2,12 +2,12 @@ body { font-family: "Lucida Console", Monaco, monospace; background-color: #222;
 
 .heading { max-width: 90%; margin: 0px auto; cursor: pointer; margin-top: 32px; margin-bottom: 32px; background: url(assets/back.png); background-repeat: no-repeat; background-size: 25px 40px; }
 .heading h1 { font-size: 40pt; color: #70b62c; margin-top: 0px; margin-left: 60px; text-align: right; font-weight: bold; font-style: italic; padding: 0px; }
-.heading h2 { font-size: 32pt; color: #70b62c; margin-top: 0px; margin-left: 60px; text-align: right; font-weight: bold; font-style: italic; padding: 0px; }
+.heading h2 { font-size: 32pt; color: #70b62c; margin-top: 0px; margin-left: 60px; text-align: center; font-weight: bold; font-style: italic; padding: 0px; }
 
 img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
-.deals { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 32px; padding-bottom: 32px; }
-.deals p { font-size: 24pt; }
+.deals { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 24px; padding-bottom: 24px; }
+.deals h1 { font-size: 26pt; text-align: center; font-weight: normal; }
 
 .deallist { max-width: 90%; margin: 0px auto; }
 .deallist ul { color: #429f35; font-size: 20pt; }

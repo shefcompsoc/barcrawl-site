@@ -10,7 +10,7 @@
       <h1>Bar One</h1>
     </div>
     <div id="101" class="objective clickable">
-      <p>Make friends with someone of the opposite OS</p>
+      <p>Make friends with someone in another year</p>
     </div>
     <div id="102" class="objective clickable">
       <p>Meet a committee member</p>

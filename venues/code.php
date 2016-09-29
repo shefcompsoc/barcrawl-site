@@ -18,7 +18,7 @@
     </div>
 
     <div class="deals clickable" onclick="linkTo('../deals/code.php')">
-      <p>Deals</p>
+      <h1>Deals</h1>
     </div>
 
   </body>
