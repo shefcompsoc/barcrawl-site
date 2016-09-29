@@ -12,7 +12,8 @@
     
     <div class="deallist">
       <ul>
-        <li></li>
+        <li>2-for-1 cocktails</li>
+        <li>£2.50 spirits and mixers</li>
       </ul>
     </div>
 

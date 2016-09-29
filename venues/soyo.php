@@ -15,5 +15,9 @@
     <div id="402" class="objective clickable">
       <p>AN OBJECTIVE</p>
     </div>
+
+    <div class="deals clickable" onclick="linkTo('../deals/soyo.php')">
+      <p>Deals</p>
+    </div>
   </body>
 </html>

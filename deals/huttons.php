@@ -12,7 +12,7 @@
 
     <div class="deallist">
       <ul>
-        <li></li>
+        <li>25% off all drinks!</li>
       </ul>
     </div>
 

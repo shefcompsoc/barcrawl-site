@@ -15,5 +15,9 @@
     <div id="302" class="objective clickable">
       <p>They laughed at it</p>
     </div>
+
+    <div class="deals clickable" onclick="linkTo('../deals/tigerworks.php')">
+      <p>Deals</p>
+    </div>
   </body>
 </html>

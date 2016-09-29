@@ -15,5 +15,9 @@
     <div id="202" class="objective clickable">
       <p>Explain to someone the difference between memory and RAM</p>
     </div>
+
+    <div class="deals clickable" onclick="linkTo('../deals/huttons.php')">
+      <p>Deals</p>
+    </div>
   </body>
 </html>
