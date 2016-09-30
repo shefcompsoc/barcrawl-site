@@ -1,7 +1,7 @@
 body { font-family: "Lucida Console", Courier, monospace; background-color: #222; }
 
 .heading { max-width: 90%; margin: 0px auto; cursor: pointer; margin-top: 32px; margin-bottom: 32px; background: url(assets/back.png) left center no-repeat; background-size: 25px 40px; }
-.heading h1 { font-size: 40pt; color: #70b62c; margin-top: 0px; margin-left: 60px; text-align: right; font-weight: bold; font-style: italic; padding: 0px; }
+.heading h1 { font-size: 40pt; color: #70b62c; margin-top: 0px; margin-left: 30px; text-align: right; font-weight: bold; font-style: italic; padding: 0px; }
 
 h2 { font-size: 32pt; color: #70b62c; margin-top: 0px; text-align: center; font-weight: bold; font-style: italic; padding: 0px; }
 
