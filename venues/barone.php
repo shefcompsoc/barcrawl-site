@@ -21,7 +21,7 @@
       <p>Meet a committee member</p>
     </div>
     <div id="103" class="objective clickable">
-      <p>Get a photo with someone you don't know</p>
+      <p>Get a photo with someone you don't know, and send it to shefcompsoc on Snapchat</p>
     </div>
 
     <div class="socialmedia" onclick="window.open('http://www.shefcompsoc.co.uk/social.php')">
