@@ -18,8 +18,7 @@ html, body {
     margin-top: 32px;
     margin-bottom: 32px;
 
-    background: url(assets/back.png);
-    background-repeat: no-repeat;
+    background: url(assets/back.png) left center no-repeat;cent
     background-size: 25px 40px;
 
     h1 {
@@ -44,7 +43,7 @@ html, body {
 }
 
 .spacer {
-    
+
 }
 
 img {
@@ -52,7 +51,7 @@ img {
     height: auto;
     margin-top: 16px;
     margin: 0px auto 0px auto;
-    
+
     text-align: center;
     display: block;
 }
@@ -108,11 +107,10 @@ img {
     max-width: 90%;
     margin: 0px auto;
     cursor: pointer;
-    
+
     p {
         font-size: 20pt;
         text-align: center;
         padding: 8px;
     }
 }
-
