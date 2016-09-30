@@ -11,7 +11,7 @@
     </div>
 
     <div class="time">
-      <h3>21:45 - 22:30</h3>
+      <h3>21:40 - 22:30</h3>
     </div>
 
     <div id="301" class="objective clickable">
