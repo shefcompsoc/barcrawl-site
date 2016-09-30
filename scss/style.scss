@@ -44,7 +44,17 @@ html, body {
 }
 
 .time {
+
+    margin: 0px auto;
+    max-width: 90%;
+
     
+    h3 {
+        color: $cs-green1;
+        font-size: 26pt;
+        text-align: center;
+        font-weight: normal;
+    }
 }
 
 .spacer {

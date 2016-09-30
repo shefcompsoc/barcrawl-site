@@ -9,6 +9,11 @@
     <div class="heading" onclick="linkTo('../index.php')">
       <h1>Soyo</h1>
     </div>
+
+    <div class="time">
+      <h3>22:40 - 23:30</h3>
+    </div>
+
     <div id="401" class="objective clickable">
       <p>Draw on even more CompSoc members</p>
     </div>

@@ -10,6 +10,10 @@
       <h1>Code</h1>
     </div>
 
+    <div class="time">
+      <h3>23:45 - END</h3>
+    </div>
+
     <div id="501" class="objective clickable">
       <p>Get into the club intact</p>
     </div>
