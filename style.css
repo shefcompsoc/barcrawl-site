@@ -1,50 +1,25 @@
-/*
-Error: Invalid CSS after "...size: 25px 40px": expected "{", was ";"
-        on line 22 of scss/style.scss
+body { font-family: "Lucida Console", Monaco, monospace; background-color: #222; }
 
-17:     cursor: pointer;
-18:     margin-top: 32px;
-19:     margin-bottom: 32px;
-20: 
-21:     background: url(assets/back.png) left center no-repeat;cent
-22:     background-size: 25px 40px;
-23: 
-24:     h1 {
-25:         font-size: 40pt;
-26:         color: $cs-green2;
-27:         margin-top: 0px;
+.heading { max-width: 90%; margin: 0px auto; cursor: pointer; margin-top: 32px; margin-bottom: 32px; background: url(assets/back.png) left center no-repeat; background-size: 25px 40px; }
+.heading h1 { font-size: 40pt; color: #70b62c; margin-top: 0px; margin-left: 60px; text-align: right; font-weight: bold; font-style: italic; padding: 0px; }
 
-Backtrace:
-scss/style.scss:22
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:724:in `declaration_or_ruleset'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:674:in `block_child'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:655:in `block'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/engine.rb:278:in `render'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Users/rob/.rbenv/versions/2.1.7/lib/ruby/gems/2.1.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...size: 25px 40px\": expected \"{\", was \";\"\A         on line 22 of scss/style.scss\A \A 17:     cursor: pointer;\A 18:     margin-top: 32px;\A 19:     margin-bottom: 32px;\A 20: \A 21:     background: url(assets/back.png) left center no-repeat;cent\A 22:     background-size: 25px 40px;\A 23: \A 24:     h1 {\A 25:         font-size: 40pt;\A 26:         color: $cs-green2;\A 27:         margin-top: 0px;"; }
+h2 { font-size: 32pt; color: #70b62c; margin-top: 0px; text-align: center; font-weight: bold; font-style: italic; padding: 0px; }
+
+img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
+
+.deals { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 24px; padding-bottom: 24px; }
+.deals h1 { font-size: 26pt; text-align: center; font-weight: normal; }
+
+.deallist { max-width: 90%; margin: 0px auto; }
+.deallist ul { color: #429f35; font-size: 20pt; }
+.deallist ul li { padding-bottom: 16px; }
+
+.btn { background-color: #429f35; color: #222; }
+
+.objective { background-color: #2f2f2f; color: #429f35; }
+.objective span { float: right; }
+
+.marked { background-color: #429f35; color: #222; }
+
+.clickable { max-width: 90%; margin: 0px auto; cursor: pointer; }
+.clickable p { font-size: 20pt; text-align: center; padding: 8px; }

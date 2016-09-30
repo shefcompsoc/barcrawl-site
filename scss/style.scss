@@ -18,7 +18,7 @@ html, body {
     margin-top: 32px;
     margin-bottom: 32px;
 
-    background: url(assets/back.png) left center no-repeat;cent
+    background: url(assets/back.png) left center no-repeat;
     background-size: 25px 40px;
 
     h1 {
@@ -31,15 +31,16 @@ html, body {
         font-style: italic;
         padding: 0px;
     }
-    h2 {
-        font-size: 32pt;
-        color: $cs-green2;
-        margin-top: 0px;
-        text-align: center;
-        font-weight: bold;
-        font-style: italic;
-        padding: 0px;
-    }
+}
+
+h2 {
+  font-size: 32pt;
+  color: $cs-green2;
+  margin-top: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0px;
 }
 
 .spacer {

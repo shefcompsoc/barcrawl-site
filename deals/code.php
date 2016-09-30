@@ -8,9 +8,9 @@
   <body>
     <div class="heading" onclick="linkTo('../venues/code.php')">
       <h1>Code</h1>
-      <h2>Deals</h2>
     </div>
-    
+    <h2>Deals</h2>
+
     <div class="deallist">
       <ul>
         <li>Free Entry!</li>

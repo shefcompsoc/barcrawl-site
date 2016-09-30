@@ -8,8 +8,8 @@
   <body>
     <div class="heading" onclick="linkTo('../venues/huttons.php')">
       <h1>Huttons</h1>
-      <h2>Deals</h2>
     </div>
+    <h2>Deals</h2>
 
     <div class="deallist">
       <ul>
