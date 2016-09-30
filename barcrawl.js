@@ -69,13 +69,31 @@ function getObjective(id) {
     }
 }
 
+function showCompleteness () {
+  Array.from(document.querySelectorAll('.main .btn.clickable')).forEach(function (el, i) {
+    var count = 0;
+
+    for (var obj in window.localStorage) {
+      if (obj.substring(0,4) === 'obj' + (i+1)) {
+        if (window.localStorage[obj] == 1) count++;
+      }
+    }
+
+    var percent = Math.round((count / el.dataset.total) * 100);
+    var bg = 'linear-gradient(90deg, #93c11f 0%, #93c11f ' + percent + '%, #429f35 ' + percent + '%, #429f35 100%)'
+    el.style.background = bg;
+  });
+}
+
 window.addEventListener('DOMContentLoaded', function() {
-        Array.from(document.querySelectorAll('.objective')).forEach(function(ob) {
+    Array.from(document.querySelectorAll('.objective')).forEach(function(ob) {
         getObjective(ob.id);
-        
+
         ob.addEventListener('click', function() {
             //Update individual
             markObjective(ob.id);
         });
     });
+
+    showCompleteness();
 });
