@@ -43,8 +43,9 @@ h2 {
   padding: 0px;
 }
 
-.spacer {
-
+.logo {
+  max-width: 90%;
+  max-height: auto;
 }
 
 img {
@@ -65,8 +66,9 @@ img {
 
     padding-top: 24px;
     padding-bottom: 24px;
+
     h1 {
-        font-size: 26pt;
+        font-size: 24pt;
         text-align: center;
         font-weight: normal;
     }
