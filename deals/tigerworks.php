@@ -12,6 +12,9 @@
     </div>
 
     <div class="deallist">
+      <a href="../assets/tiger_privilege.png">
+        <img src="../assets/tiger_privilege.png">
+      </a>
     </div>
 
   </body>

@@ -13,7 +13,7 @@
       <p>Draw on even more CompSoc members</p>
     </div>
     <div id="402" class="objective clickable">
-      <p>Spot the inevitable cock drawn on someone's shirt</p>
+      <p>Spot the inevitable penis drawn on someone's shirt</p>
     </div>
     <div id="403" class="objective clickable">
       <p>Talk to a non-member about CompSci</p>
