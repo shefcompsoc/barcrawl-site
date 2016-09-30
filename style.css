@@ -7,6 +7,9 @@ h2 { font-size: 32pt; color: #70b62c; margin-top: 0px; text-align: center; font-
 
 .logo { max-width: 90%; max-height: auto; }
 
+.time { margin: 0px auto; max-width: 90%; }
+.time h3 { color: #429f35; font-size: 26pt; text-align: center; font-weight: normal; }
+
 img { max-width: 100%; height: auto; margin-top: 16px; margin: 0px auto 0px auto; text-align: center; display: block; }
 
 .deals { background-color: #3c3c3c; color: #429f35; font-style: italic; text-decoration: underline; padding-top: 24px; padding-bottom: 24px; }
