@@ -23,5 +23,10 @@
     <div id="103" class="objective clickable">
       <p>Get a photo with someone you don't know</p>
     </div>
+
+    <div class="socialmedia" onclick="window.open('http://www.shefcompsoc.co.uk/social.php')">
+      <h2>@shefcompsoc</h2>
+    </div>
+
   </body>
 </html>

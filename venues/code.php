@@ -25,5 +25,9 @@
       <h1>Deals</h1>
     </div>
 
+    <div class="socialmedia" onclick="window.open('http://www.shefcompsoc.co.uk/social.php')">
+      <h2>@shefcompsoc</h2>
+    </div>
+
   </body>
 </html>
